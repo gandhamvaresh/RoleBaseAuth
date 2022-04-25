@@ -2,7 +2,12 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-10-role-based-authorization-example-heqnta)
 
+------------------------------------------------------------
 
+ Token-based authentication
+
+Token-based authentication technologies enable users to enter their credentials once and receive a unique encrypted string of random characters in exchange. You can then use the token to access protected systems instead of entering your credentials all over again. The digital token proves that you already have access permission. Use cases of token-based authentication include RESTful APIs that are used by multiple frameworks and clients.
+------------------------------------------------------
 
 <input type="text" formControlName="username" class="form-control" />
  <input type="password" formControlName="password" class="form-control" />
