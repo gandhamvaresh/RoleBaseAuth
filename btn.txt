@@ -1,0 +1,24 @@
+ <button id="increment" (click)="increment()">Increment</button>
+  <button id="decrement" (click)="decrement()">Decrement</button>
+  <button id="reset" (click)="reset()">Reset Counter</button>
+  
+  
+  ----------
+  
+  
+  counter.compoment.ts
+  
+  increment() {
+    this.store.dispatch(increment());
+  }
+
+  decrement() {
+    this.store.dispatch(decrement());
+  }
+
+  reset() {
+    this.store.dispatch(reset());
+  }
+  
+  
+  ----------------------------------
